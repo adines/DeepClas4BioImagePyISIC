@@ -8,6 +8,9 @@ To use this plugin is necessary to have installed ImagePy with python 3.6 and th
 ## Installation
 To install this plugin you have to download it and put it in the path imagepy --> menus --> Plugins --> DeepClas4Bio.
 
+## About the model
+This plugin use a Keras model, the ResNet34 model, trained in the ISIC dataset. The steps we have followed to fine-tune this model can be found in the following [Colab Notebook](https://colab.research.google.com/drive/1z3h_oNZnfLjxfdOmYIUtpUVxkib3axg1#scrollTo=sYp9yBIkN-CW).
+
 ## Using the plugin
 In this section, we will see an example of how to use this plugin. For this example we will classify an ISIC image. 
 
